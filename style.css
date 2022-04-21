@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 1rem; /* Remove margins */
+}
+
+li a {
+  color: lightgray;
+}
+
+a:hover {
+  color: #39afc8;
+}
+
+button {
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 1.1rem;
+  height: 3.2rem;
+  position: relative;
+  text-align: center;
+  background-color: #39afc8;
+  color: white;
+  transition: opacity 0.2s ease-in, top 0.2s ease-in;
+  min-width: 120px;
+  margin: 5rem auto 0 auto;
+}
+
+button:hover {
+  opacity: 0.8;
+  top: -2px;
+  color: white;
+}
+
+button a {
+  color: white;
+}
+
+button a:hover {
+  color: white;
+}
